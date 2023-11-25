@@ -1,7 +1,7 @@
 openapi: 3.0.1
 info:
-  title: APIs.io API
-  description: This is the public version of the APis.io API search engine, providing
+  title: APIs.io Tags API
+  description: This is the API for working with tags and taxonomy in the APIs.io API search engine.
     search, submission, and engine capabilities.
   version: V1
 servers:
