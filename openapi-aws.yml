@@ -5,7 +5,7 @@ info:
     search, submission, and engine capabilities.
   version: V1
 servers:
-- url: https://6lmdrlqfjj.execute-api.us-east-1.amazonaws.com/staging
+- url: https://tags-api.apis.io
 paths:
 
   /engine/apis/tags:
