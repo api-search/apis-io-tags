@@ -10,6 +10,8 @@ type: Contract
 position: Producer
 access: 1st-Party
 image: https://kinlane-productions2.s3.amazonaws.com/apis-io/apis-io-api-logo.jpg
+tags:
+  - Tags
 
 apis:
 
@@ -107,7 +109,8 @@ common:
   - url: https://api-evangelist-tools.github.io/apis-io-tags-api-api-validator/
     type: APIValidation
 
-tagss:
+maintainer:
+
   - FN: Kin Lane
     email: info@apievangelist.com
     X-github: kinlane
