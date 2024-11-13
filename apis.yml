@@ -10,9 +10,6 @@ type: Contract
 position: Producer
 access: 1st-Party
 image: https://kinlane-productions2.s3.amazonaws.com/apis-io/apis-io-api-logo.jpg
-tags:
-
-  - Tags
 
 apis:
 
