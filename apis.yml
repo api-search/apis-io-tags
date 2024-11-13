@@ -31,7 +31,8 @@ apis:
       - FN: APIs.io
         email: info@apis.io
     
-    tags:
+    properties:
+    
       - url: https://github.com/api-search/tags-api
         type: GitHubRepository
       - url: >-
