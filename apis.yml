@@ -1,38 +1,17 @@
 aid: apis-io-tags
-specificationVersion: '0.18'
-name: APIs.io Tags API
-description: >-
-  This is the contract for the APIs.io Tags API used to govern the APIs.io search tags.
-created: '2024-08-20'
-modified: '2024-11-13'  
 url: https://github.com/api-search/tags-api/blob/main/apis.yml
-type: Contract
-position: Producer
-access: 1st-Party
-image: https://kinlane-productions2.s3.amazonaws.com/apis-io/apis-io-api-logo.jpg
-tags:
-  - Tags
-
 apis:
-
   - aid: apis-io-tags:tags-api
     name: APIs.io Tags API
-    description: >-
-      This is the API for powering APIs.io.
     tags:
-
       - Tags
-
     image: https://kinlane-productions2.s3.amazonaws.com/apis-io/apis-io-api-logo.jpg
-    humanURL: https://developer.apis.io/documentation
     baseURL: https://tags-api.apis.io
-
     contact:
       - FN: APIs.io
         email: info@apis.io
-    
+    humanURL: https://developer.apis.io/documentation
     properties:
-    
       - url: https://github.com/api-search/tags-api
         type: GitHubRepository
       - url: >-
@@ -42,9 +21,14 @@ apis:
         type: Documentation
       - url: properties/openapi.yml
         type: OpenAPI
-
+    description: This is the API for powering APIs.io.
+name: APIs.io Tags API
+tags:
+  - Tags
+type: Contract
+image: https://kinlane-productions2.s3.amazonaws.com/apis-io/apis-io-api-logo.jpg
+access: 1st-Party
 common:
-
   - url: https://github.com/api-search/
     type: GitHubOrganization
   - url: https://www.postman.com/api-evangelist/apis-io-api-search-tags/overview
@@ -109,9 +93,14 @@ common:
     type: OperationalValidation
   - url: https://api-evangelist-tools.github.io/apis-io-tags-api-api-validator/
     type: APIValidation
-
+created: '2024-08-20'
+modified: '2024-11-26'
+position: Producing
 maintainer:
-
   - FN: Kin Lane
     email: info@apievangelist.com
     X-github: kinlane
+description: >-
+  This is the contract for the APIs.io Tags API used to govern the APIs.io
+  search tags.
+specificationVersion: '0.18'
